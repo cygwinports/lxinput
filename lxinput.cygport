@@ -1,8 +1,11 @@
 inherit gnome2
 
+NAME="lxinput"
+VERSION=0.3.2
+RELEASE=1
 CATEGORY="LXDE"
 SUMMARY="LXDE input preferences"
 DESCRIPTION="LXInput is a small program used to configure keyboard and mouse
 for LXDE."
 HOMEPAGE="http://lxde.org/"
-SRC_URI="mirror://sourceforge/lxde/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/lxde/${NAME}-${VERSION}.tar.gz"
